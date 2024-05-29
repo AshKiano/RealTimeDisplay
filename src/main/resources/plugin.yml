@@ -1,0 +1,9 @@
+name: RealTimeDisplay
+version: '${project.version}'
+main: realtimedisplay.realtimedisplay.RealTimeDisplay
+api-version: 1.16
+authors: [ AshKiano ]
+commands:
+  realtime:
+    description: Toggle real-time display above the hotbar.
+    usage: "/realtime"
